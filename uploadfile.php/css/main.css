@@ -1,0 +1,12 @@
+.container{
+	background: #c2c2d6;
+	margin: 10px auto;
+	padding: 10px 10px;
+}
+.image{
+	max-width: 500px;
+	box-sizing: border-box;
+	margin:20px;
+	border-radius: 3px solid;
+	box-shadow: 3px 3px 0 #99ff99;
+}

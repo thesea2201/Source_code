@@ -1,0 +1,85 @@
+body{
+	background: #32d196;
+}
+
+.container{
+	font:1em "Indie Flower";
+	background: #fff;
+	margin: 50px auto;
+	padding: 10px 20px;	
+	max-width: 500px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 3px 3px 0 rgba(0 , 0, 0, .1);
+}
+/*header*/ 
+.container .header{
+	font-size: 0.6cm;
+}
+
+.container .header h1{
+	display: block;
+}
+
+/*items*/
+.container .header .items{
+	list-style-type: none;
+}
+
+/*items*/
+.container .header .items li:hover .done-button{
+	opacity: 1;
+}
+
+/*done*/
+.container .header .items .done{
+	text-decoration: line-through;
+}
+
+
+/*items*/
+.container .header .items li{
+	padding: 10px 0;
+	border-bottom: 1px dashed;
+}
+
+
+/*done-button*/
+.container .header .items .done-button{
+	display: inline-block;
+	border :0;
+	font-size: 0.4cm;
+	background: #e1f4e1;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 5px auto;
+	opacity: 0.6;
+}
+
+.container .header .item-add {
+	margin-top: 20px;
+}
+
+/*items*/
+.container .header .item-add .input{
+	
+	padding: 10px 0;
+	border-bottom: 1px dashed;
+	width: 100%;
+}
+
+.container .header .item-add .input:focus{
+	outline: none;
+}
+
+
+/*Submit*/
+.submit{
+	background-color: #71edb9;
+	border-radius: 10px;
+	width: 100%;
+	height : 30px;
+	margin-top: 20px;
+	box-shadow: 3px 3px 0 #ddd;
+}
+
