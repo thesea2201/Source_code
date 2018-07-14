@@ -1,0 +1,11 @@
+.in_tencs{
+	width: : 120px;
+}
+table th td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th td{
+	padding: 200px;
+}
+
