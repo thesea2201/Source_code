@@ -33,7 +33,7 @@ CREATE TABLE `item` (
   `TITLE` text,
   `USERID` int(11) DEFAULT NULL,
   `DONE` tinyint(1) DEFAULT NULL,
-  `CREATED` int(11) DEFAULT NULL
+  `CREATED` datetime(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
